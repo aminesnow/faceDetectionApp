@@ -1,0 +1,20 @@
+
+<div class="col-md-3 col-md-offset-3">
+  <div class="row">
+    <h2>Cam feed</h2>
+    <webcam channel="myChannel"
+      on-stream="onStream(stream)"
+      on-streaming="onSuccess()"
+      on-error="onError(err)">
+    </webcam>
+    <button ng-click="takeScreenShot()" class="btn btn-default" ng-show="showBtn">Detect faces</button>
+  </div>
+  <div class="row" ng-show="showSnap">
+    <h2>Original snapshot</h2>
+    <canvas id="canvas" width="300" height="300"></canvas>
+  </div>
+  <div class="row" ng-show="showSnap" id="detection">
+    <h2>Snapshot with face detection</h2>
+    <img ng-src="data:image/png;base64,{{myImage}}">
+  </div>
+</div>

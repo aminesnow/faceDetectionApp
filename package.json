@@ -1,0 +1,52 @@
+{
+  "name": "CamFaceDetectionApp",
+  "description": "",
+  "version": "0.1.0",
+  "author": " <>",
+  "contributors": [],
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/aminesnow/"
+  },
+  "engines": {
+    "node": "~0.10.22"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.0",
+    "datauri": "^1.0.4",
+    "express": "^4.0.0",
+    "morgan": "~1.7.0",
+    "multer": "^1.2.0",
+    "opencv": "git+https://github.com/peterbraden/node-opencv.git",
+    "socket.io": "2.x"
+  },
+  "devDependencies": {
+    "enjoi": "^1.0.2",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.0.1",
+    "gulp-angular-templatecache": "^2.x",
+    "gulp-concat": "^2.x",
+    "gulp-connect": "^4.x",
+    "gulp-cssmin": "^0.x",
+    "gulp-ignore": "^2.x",
+    "gulp-imagemin": "^3.x",
+    "gulp-less": "^3.x",
+    "gulp-mobilizer": "^0.0.2",
+    "gulp-ng-annotate": "^2.x",
+    "gulp-nodemon": "^2.x",
+    "gulp-order": "^1.1.1",
+    "gulp-rename": "^1.2.x",
+    "gulp-replace": "^0.4.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-sourcemaps": "^1.1.0",
+    "gulp-uglify": "^1.x",
+    "imagemin-pngcrush": "^5.x",
+    "istanbul": "~0.2.3",
+    "js-yaml": "^3.2.6",
+    "jshint": "^2.4.1",
+    "run-sequence": "^1.x",
+    "streamqueue": "^1.x",
+    "supertest": "~0.13.0",
+    "tape": "^3.0.0"
+  }
+}

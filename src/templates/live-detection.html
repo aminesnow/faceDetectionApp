@@ -1,0 +1,18 @@
+
+
+<div class="col-md-3 col-md-offset-3">
+  <div class="row">
+    <webcam channel="myChannel"
+      on-stream="onStream(stream)"
+      on-streaming="onSuccess()"
+      on-error="onError(err)"
+      ng-hide={{true}}>
+    </webcam>
+  </div>
+
+  <div class="row">
+    <h2>Live face detection</h2>
+    <img ng-src="data:image/png;base64,{{myStream}}">
+  </div>
+
+</div>
