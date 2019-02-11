@@ -1,4 +1,4 @@
-README CamFaceDetectionApp
+CamFaceDetectionApp
 ==========================
 
 To get the app up and running:
